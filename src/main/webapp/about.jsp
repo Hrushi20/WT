@@ -95,12 +95,12 @@
         <h2 class="ot" style="text-align:center">Meet Our Team Mates</h2>
         <div class="column1">
           <div class="card1">
-            <img class="imgabout" src="images/about/althaf.jpeg" alt="Althaf">
+            <img class="imgabout" src="images/about/surya.png" alt="Surya">
             <div class="container1">
-              <h2>Althaf S</h2>
+              <h2>Surya</h2>
               <p class="title">Associate Engineer Technology</p>
               <p>Working at Virtusa Consulting Services PVT LTD, from Bangalore.</p>
-              <p>althafs1215@gmail.com</p>
+              <p>test@gmail.com</p>
               <p><button class="button">Contact</button></p>
             </div>
           </div>
@@ -108,12 +108,12 @@
 
         <div class="column1">
           <div class="card1">
-            <img id="imgabout" src="images/about/rachana.jpeg" alt="rachana">
+            <img id="imgabout" src="images/about/bilal.png" alt="bilal">
             <div class="container1">
-              <h2>Rachana K</h2>
+              <h2>Bilal</h2>
               <p class="title">Associate Engineer Technology</p>
               <p>Working at Virtusa Consulting Services PVT LTD, from Mangalore</p>
-              <p>rachanakkadur@gmail.com</p>
+              <p>test@gmail.com</p>
               <p><button class="button">Contact</button></p>
             </div>
           </div>
@@ -121,12 +121,12 @@
 
         <div class="column1">
           <div class="card1">
-            <img class="imgabout" src="images/about/sanjay.jpeg" alt="sanjay">
+            <img class="imgabout" src="images/about/rahul.png" alt="rahul">
             <div class="container1">
-              <h2>Sanjay Mantha</h2>
+              <h2>Rahul</h2>
               <p class="title">Associate Engineer Technology</p>
               <p>Working at Virtusa Consulting Services PVT LTD, from Hyderabad.</p>
-              <p>mantha.sanjay33@gmail.com</p>
+              <p>test@gmail.com</p>
               <p><button class="button">Contact</button></p>
             </div>
           </div>
@@ -134,12 +134,12 @@
 
         <div class="column1">
           <div class="card1">
-            <img class="imgabout" src="images/about/manju.jpeg" alt="manjunath">
+            <img class="imgabout" src="images/about/rohith.png" alt="rohith">
             <div class="container1">
-              <h2>Manjunath Tolagatti</h2>
+              <h2>Rohith</h2>
               <p class="title">Associate Engineer Technology</p>
               <p>Working at Virtusa Consulting Services PVT LTD, from Bangalore </p>
-              <p>manjunathtolagatti@gmail.com</p>
+              <p>test@gmail.com</p>
               <p><button class="button">Contact</button></p>
             </div>
           </div>
