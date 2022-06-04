@@ -1,0 +1,368 @@
+/* ...................................header starts here................................................*/
+.navbar {
+    transition: all 0.4s;
+    background: black;
+    height: 83px;
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link:hover{
+    color: #cc6666;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+.icons{
+    margin-left: 20px;
+    padding-top: 17px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+#icon1{
+    margin-left: none;
+    padding-left: inherit;
+    margin-left: 10px;
+}
+
+.navbar .icons .cart, .search{
+    color: white;
+    background-color:#bbbbbb;
+    border-radius: 40%;
+}
+
+.menu2{
+    text-align:right;
+    margin-left: 133px;
+    padding-top: 17px;
+    text-decoration: none;
+    list-style: none;
+    float: left;
+    
+}
+.navbar .login-a{
+    color: skyblue;
+    text-decoration: none;
+    list-style: none;
+    float: left;
+
+}
+.navbar .login-a:hover {
+    color: #609377;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.navbar .logo .logoimg{
+    text-decoration: none;
+    list-style: none;
+}
+
+#section1{
+    width: 100%;
+
+}
+
+
+/* ........................login page starts here............................ */
+
+#vertical {
+    border-left: 1px solid black;
+    height: 650px;
+    position:absolute;
+    left: 46%;
+}
+
+#register, #login{
+    font-weight: bold;
+    font-size: 31px;
+    font-family: sans-serif;
+}
+
+#login_us 
+{
+
+    width: 100%;
+    background-color: burlywood;
+    background: burlywood;
+
+}
+#loginbtnn{
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-top: 13px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    width: 70%;
+    text-align: center;
+}
+#registerbtnn
+{
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-top: 13px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    width: 70%;
+    text-align: center;
+}
+#loginbtnn:hover{
+    background-color:gray;
+}
+#registerbtnn:hover{
+    background-color:gray;
+}
+
+
+#form111 {
+
+   height: 109%;
+    width: 35%;
+    margin-left: 20%;
+    margin-top: 4%;
+    padding-left: 10px;
+   text-align:center;
+   padding-top: 25px;
+   padding-bottom: 300px;
+   background-color:burlywood;
+   float: left;
+   border-radius: 20px;
+   border-color: darkblue;
+
+}
+#form111 label {
+
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    /* margin-top: 20px; */
+    padding-right: 10px;
+    
+}
+
+#form222 {
+
+    height: 59%;
+    width: 25%;
+    padding-top: 20px;
+    float: left;
+    background-color: burlywood;
+    margin-left: 11%;
+    margin-top: 5%;
+    padding-bottom: 70px;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+#form222 label {
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    /* margin-top: 20px; */
+    
+    
+}
+
+
+
+/* ......................................footer starts here................................... */
+
+.footer{
+	background-color: #24262b;
+    padding: 40px 0;
+    width: 100%;
+    margin-left: 0px;
+    height: 300px;
+    float: left;
+    margin-top: 120px;
+}
+.footer-col{
+   width: 17%;
+   padding: 0 15px;
+   float: left;
+}
+
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color:#ffba42;
+	height: 2px;
+	width: 50px;
+}
+.footer-col ul li{
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+
+/* footer social media2 styles */
+.footer-col1{
+    width: 23%;
+    padding: 0 15px;
+ }
+.footer-col1 h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col1 h4::before {
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color:#ffba42;
+	height: 2px;
+	width: 50px;
+}
+
+.footer-col1 .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s;
+    text-decoration: none;
+    list-style: none;
+}
+.footer-col1 .social-links a:hover{
+	color: #00dca8;
+	background-color: white;
+}
+.social-links .foottxt{
+    color: whitesmoke;
+}
+
+.footrightright .loacation{
+    margin-top: 30px;
+    text-align: right;
+    position: relative;
+    float: right;
+}
+.footrightright .locationhead{
+    font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+}
+.locationhead::before{
+    padding-bottom: 10px;
+}
+.underline{
+    
+    padding-top: 5px;
+    text-decoration-color:#ffba42;
+    text-decoration-style:solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+/*....................Floating Back-To-Top Button..................*/
+#myBtn {
+    position: fixed;
+    bottom: 30px;
+    float: right;
+    right: 4%;
+    left: 96%;
+    height: 40px;
+    text-align: center;
+    width: 50px;
+    font-size: 15px;
+    border-color: rgba(85, 85, 85, 0.2);
+    background-color: rgb(100,100,100);
+    padding: .5px;
+    border-radius: 50%;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+
+}
+/*On Hover Color Change*/
+#myBtn:hover {
+    background-color: #ffd358;
+    scroll-behavior: smooth;
+    transition: 0.5s;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}

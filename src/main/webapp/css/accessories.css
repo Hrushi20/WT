@@ -1,0 +1,773 @@
+/* ...................................header starts here................................................*/
+.navbar {
+    transition: all 0.4s;
+    background: black;
+    height: 83px;
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link:hover{
+    color: #cc6666;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+.icons{
+    margin-left: 20px;
+    padding-top: 17px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+#icon1{
+    margin-left: none;
+    padding-left: inherit;
+    margin-left: 10px;
+}
+
+.navbar .icons .cart, .search{
+    color: white;
+    background-color:#bbbbbb;
+    border-radius: 40%;
+}
+
+.menu2{
+    text-align:right;
+    margin-left: 133px;
+    padding-top: 17px;
+    text-decoration: none;
+    list-style: none;
+    float: left;
+    
+}
+.navbar .login-a{
+    color: skyblue;
+    text-decoration: none;
+    list-style: none;
+    float: left;
+
+}
+.navbar .login-a:hover {
+    color: #609377;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.navbar .logo .logoimg{
+    text-decoration: none;
+    list-style: none;
+}
+
+#section1{
+    width: 100%;
+
+}
+
+/* .................................accessories starts here............................................. */
+/* ..............content1 .................. */
+#bodyacess{
+  margin-top: 2%;
+}
+#content1 {
+  
+  width: 60%;
+  height: 900px;
+}
+
+.bg-images{
+  text-align: center;
+  
+}
+.bg-images img{
+  width:480px;
+  height: 530px;
+  object-fit: cover;
+  
+}
+.bg-images{
+  background-color: #f3f3f3;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.msg-ps {
+
+  font-size: 25px;
+  padding-top: 10px;
+}
+.main-head-of-products{
+  color:black;
+  padding-top:100px;
+  text-align: center;
+}
+.colored-word{
+  color:#f84258;
+}
+.colored-word-bigger-size{
+  color:#f84258;
+  font-size:35px;
+}
+.bigletter{ 
+  font-size: 80px;
+}
+
+.h1 {
+  text-align: center;
+}
+
+.header-categories{
+  text-align: center;
+  padding-top:200px;
+  font-size:23px;
+  color:black;  
+}
+.info-of-head{
+  text-align: center;  
+}
+.products-hr{
+  border: 1px solid black;
+  width:100%;
+}
+
+/* mobile scren for content 1 */
+
+@media screen and (max-width:974px){
+
+  #content1 {
+  
+    width: 100%;
+    height: 930px;
+  }
+  
+  .bg-images{
+    text-align: center;
+    
+  }
+  .bg-images img{
+    width:480px;
+    height: 530px;
+    object-fit: cover;
+    
+  }
+  .bg-images{
+    background-color: #f3f3f3;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .msg-ps {
+  
+    font-size: 25px;
+    padding-top: 10px;
+  }
+  .main-head-of-products{
+    color:black;
+    padding-top:100px;
+    text-align: center;
+  }
+  .colored-word{
+    color:#f84258;
+  }
+  .colored-word-bigger-size{
+    color:#f84258;
+    font-size:35px;
+  }
+  .bigletter{ 
+    font-size: 80px;
+  }
+  
+  .h1 {
+    text-align: center;
+  }
+  
+  .header-categories{
+    text-align: center;
+    padding-top:200px;
+    font-size:23px;
+    color:black;  
+  }
+  .info-of-head{
+    text-align: center;  
+  }
+  .products-hr{
+    border: 1px solid black;
+    width:100%;
+  }
+  
+  }
+
+/* ............content2 .............. */
+
+#content2 {
+
+    height: 700px;
+    width: 100%;
+  }
+  
+  .row1 {
+    width: 100%;
+    
+  }
+  
+  .img1 {
+  
+    width: 31%;
+    height: 10px;
+    float: left;
+    padding-right: 16px;
+    padding-bottom: 30px;
+    
+  }
+  
+  .img1 h1 {
+  
+      text-align: center;
+      padding-left: 110px;
+      padding-top: 15px;
+      font-size: 25px;
+      text-transform: uppercase;
+      
+  }
+  
+  .img1 h5 {
+  
+    text-align: center;
+    padding-left: 110px;
+    font-size: 30px;
+    color: blue
+    
+  }
+  
+  .img2 {
+    width: 31%;
+    float: left;
+    padding-top: 3px;
+    margin-left: 5px;
+  
+  }
+  
+  .img2 h1 {
+  
+    text-align: center;
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+  
+  .img2 h5 {
+  
+    text-align: center;
+    padding-left: 30px;
+    font-size: 30px;
+    color:blue
+  }
+  
+  
+  .img3 {
+    width: 31%;
+    float: left;
+    padding-left: 100px;
+    padding-top: 10px;
+  
+  }
+  
+  .img3 h1 {
+  
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-top: 15px;
+  }
+  
+  .img3 h5 {
+  
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+  }
+  
+  /* media only scrern for conent 2 */
+  
+  @media screen and (max-width:1000px){
+  
+    #content2 {
+  
+      width: 50%;
+     height: 1200px;
+     padding-right: 250px;
+     margin-bottom: 20px;
+  
+    }
+    .row2 {
+      
+      height: 300px;
+    }
+  
+    .img1 {
+  
+      height: 700px;
+    }
+  
+  .img1 h1 {
+  
+    text-align: center;
+    padding-left: 230px;
+    padding-top: 15px;
+    font-size: 25px;
+    text-transform: uppercase;
+    
+  }
+  
+  .img1 h5 {
+  
+  text-align: center;
+  padding-left: 230px;
+  font-size: 30px;
+  color: blue
+  
+  }
+  
+   .img2 {
+  
+    height: 700px;
+   }
+   
+  .img2 h1 {
+  
+    text-align: center;
+    padding-left: 200px;
+    padding-top: 10px;
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+  
+  .img2 h5 {
+  
+    text-align: center;
+    padding-left: 200px;
+    font-size: 30px;
+    color:blue
+  }
+  .img3 {
+  
+    height: 700px;
+    width: 50%;
+    margin-right: 100px;
+  }
+  
+  .img3 h1 {
+  
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-left: 100px;
+    padding-top: 15px;
+  }
+  
+  .img3 h5 {
+  
+    text-align: center;
+    font-size: 30px;
+    padding-left: 100px;
+    color: blue;
+  }
+  
+  }
+  
+  /* content 3 */
+  
+  #content3 {
+  
+    height: 720px;
+    width: 100%;
+  }
+  
+  .row2 {
+    width: 100%;
+    
+  }
+  
+  .img4 {
+  
+    width: 33%;
+    height: 20px;
+    float: left;
+    padding-top: 60px;
+    margin-left: 10px;
+    padding-bottom: 30px;
+  }
+  
+  .img4 h1 {
+  
+      text-align: center;
+    font-size: 25px;
+      padding-right: 120px;
+      text-transform: uppercase;
+      
+  }
+  
+  .img4 h5 {
+  
+    text-align: center;
+    font-size: 30px;
+    padding-right: 120px;
+    color: blue;
+    
+  }
+  
+  .img5 {
+    width: 33%;
+    float: left;
+    padding-top: 3px;
+    padding-left: 100px;
+    height: 40px;
+  }
+  
+  .img5 h1 {
+  
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+  
+  .img5 h5 {
+  
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+  }
+  
+  .img6 {
+    width: 33%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 40px;
+  }
+  
+  .img6 h1 {
+  
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    text-transform: uppercase;
+  }
+  
+  
+  .img6 h5 {
+  
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    color: blue;
+  }
+  
+  
+  /* media only scrren for content3 */
+  
+  
+  @media screen and (max-width:800px){
+  
+    #content3 {
+  
+      width: 50%;
+     height: 2720px;
+     padding-right: 250px;
+     margin-bottom: 20px;
+  
+    }
+    .img4 {
+  
+      height: 700px;
+    }
+  
+  .img4 h1 {
+  
+    text-align: center;
+  
+    font-size: 25px;
+    padding-right: 120px;
+    text-transform: uppercase;
+    padding-left: 150px;
+    
+  }
+  
+  .img4 h5 {
+  
+  text-align: center;
+  font-size: 30px;
+  padding-right: 120px;
+  color: blue;
+  padding-left: 150px;
+  
+  }
+   .img5 {
+    height: 500px;
+   }
+  
+  .img5 h1 {
+  
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-left: 100px;
+  }
+  
+  .img5 h5 {
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+    padding-left: 100px;
+  }
+  
+  .img6 {
+    height: 700px;
+    padding-bottom: 100px;
+  }
+  
+  .img6 h1 {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    padding-left: 200px;
+  }
+  
+  .img6 h5 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    color: blue;
+    padding-left: 200px;
+  }
+  }
+  
+  #content4 {
+  
+    width: 100%;
+    height: 450px;
+    background: url('../images/accessories/bg12.jpg');
+    text-align: center;
+    padding-top: 100px;
+    
+  } 
+  
+  @media screen and (max-width:500px){
+    
+   #content4 {
+  
+    width: 100%;
+    height: 450px;
+    background: url('../images/accessories/bg12.jpg');
+    text-align: center;
+   }
+  }
+  #specialbtn{
+    width: 135px;
+    height: 43px;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 14px;
+  }
+  #specialA{
+    text-decoration: none;
+    color: white;
+  }
+
+  /* ......................................footer starts here................................... */
+
+.footer{
+	background-color: #24262b;
+    padding: 40px 0;
+    width: 100%;
+    margin-left: 0px;
+    height: 300px;
+    float: left;
+}
+.footer-col{
+   width: 17%;
+   padding: 0 15px;
+   float: left;
+}
+
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color:#ffba42;
+	height: 2px;
+	width: 50px;
+}
+.footer-col ul li{
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+
+/* footer social media2 styles */
+.footer-col1{
+    width: 23%;
+ }
+.footer-col1 h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col1 h4::before {
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color:#ffba42;
+	height: 2px;
+	width: 50px;
+}
+
+.footer-col1 .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s;
+    text-decoration: none;
+    list-style: none;
+}
+.footer-col1 .social-links a:hover{
+	color: #00dca8;
+	background-color: white;
+}
+.social-links .foottxt{
+    color: whitesmoke;
+}
+
+.footrightright .loacation{
+    margin-top: 30px;
+    text-align: right;
+    position: relative;
+    float: right;
+}
+.footrightright .locationhead{
+    font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+}
+.locationhead::before{
+    padding-bottom: 10px;
+}
+.underline{
+    
+    padding-top: 5px;
+    text-decoration-color:#ffba42;
+    text-decoration-style:solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+/*....................Floating Back-To-Top Button..................*/
+#myBtn {
+    position: fixed;
+    bottom: 30px;
+    float: right;
+    right: 4%;
+    left: 96%;
+    height: 40px;
+    text-align: center;
+    width: 50px;
+    font-size: 15px;
+    border-color: rgba(85, 85, 85, 0.2);
+    background-color: rgb(100,100,100);
+    padding: .5px;
+    border-radius: 50%;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+
+}
+/*On Hover Color Change*/
+#myBtn:hover {
+    background-color: #ffd358;
+    scroll-behavior: smooth;
+    transition: 0.5s;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}

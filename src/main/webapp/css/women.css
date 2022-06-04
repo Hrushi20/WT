@@ -1,0 +1,316 @@
+/* ...................................header starts here................................................*/
+.navbar {
+    transition: all 0.4s;
+    background: black;
+    height: 83px;
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link:hover{
+    color: #cc6666;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+.icons{
+    margin-left: 20px;
+    padding-top: 17px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+#icon1{
+    margin-left: none;
+    padding-left: inherit;
+    margin-left: 10px;
+}
+
+.navbar .icons .cart, .search{
+    color: white;
+    background-color:#bbbbbb;
+    border-radius: 40%;
+}
+
+.menu2{
+    text-align:right;
+    margin-left: 133px;
+    padding-top: 17px;
+    text-decoration: none;
+    list-style: none;
+    float: left;
+    
+}
+.navbar .login-a{
+    color: skyblue;
+    text-decoration: none;
+    list-style: none;
+    float: left;
+
+}
+.navbar .login-a:hover {
+    color: #609377;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.navbar .logo .logoimg{
+    text-decoration: none;
+    list-style: none;
+}
+
+#section1{
+    width: 100%;
+
+}
+
+
+
+/* ............................................womens starts here............................................. */
+
+#product
+{ 
+    display:flex;
+    flex-wrap:wrap;
+
+}
+.product-card
+{
+    flex:1;
+    flex-basis:25%;
+    padding:4%;
+    background-color:lightgray;
+    box-shadow:0px 0px 1px 0px rgba(0,0,0,0.25);
+    text-align:center;
+    
+
+}
+.h3, h3 {
+    font-size: 20px;
+}
+.product-image img{
+    max-width:100%;
+
+}
+.product-info
+{
+    text-align: center;
+}
+.h1
+{
+    text-align:center;
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+}
+#womencnt {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    color: brown;
+}
+.itemname {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: .5rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: chocolate;
+}
+
+/* ......................................footer starts here................................... */
+
+.footer{
+	background-color: #24262b;
+    padding: 40px 0;
+    width: 100%;
+    margin-left: 0px;
+    height: 300px;
+    float: left;
+    
+}
+.footer-col{
+   width: 17%;
+   padding: 0 15px;
+   float: left;
+}
+
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color:#ffba42;
+	height: 2px;
+	width: 50px;
+}
+.footer-col ul li{
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+
+/* footer social media2 styles */
+.footer-col1{
+    width: 23%;
+    padding: 0 15px;
+ }
+.footer-col1 h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col1 h4::before {
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color:#ffba42;
+	height: 2px;
+	width: 50px;
+}
+
+.footer-col1 .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s;
+    text-decoration: none;
+    list-style: none;
+}
+.footer-col1 .social-links a:hover{
+	color: #00dca8;
+	background-color: white;
+}
+.social-links .foottxt{
+    color: whitesmoke;
+}
+
+.footrightright .loacation{
+    margin-top: 30px;
+    text-align: right;
+    position: relative;
+    float: right;
+}
+.footrightright .locationhead{
+    font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+}
+.locationhead::before{
+    padding-bottom: 10px;
+}
+.underline{
+    
+    padding-top: 5px;
+    text-decoration-color:#ffba42;
+    text-decoration-style:solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+/*....................Floating Back-To-Top Button..................*/
+#myBtn {
+    position: fixed;
+    bottom: 30px;
+    float: right;
+    right: 4%;
+    left: 96%;
+    height: 40px;
+    text-align: center;
+    width: 50px;
+    font-size: 15px;
+    border-color: rgba(85, 85, 85, 0.2);
+    background-color: rgb(100,100,100);
+    padding: .5px;
+    border-radius: 50%;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+
+}
+/*On Hover Color Change*/
+#myBtn:hover {
+    background-color: #ffd358;
+    scroll-behavior: smooth;
+    transition: 0.5s;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
