@@ -1,16 +1,22 @@
 package com.example.servlets;
 
+import com.example.DAO.UserDAO;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Date;
 
 public class SignUpServlet extends HttpServlet {
 
-    public void init(){
-        System.out.println("Init occuring");
+    UserDAO userDAO;
+    @Override
+    public void init() throws ServletException {
+        super.init();
+        userDAO = new UserDAO();
     }
     @Override
     public void doPost(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException {
@@ -36,6 +42,7 @@ public class SignUpServlet extends HttpServlet {
         }
 
         // Store the data in the db
+        userDAO.createUser(name,password,email,email,phoneNumber,"M");
 
         // Create a session for the user...
         req.getSession().setAttribute("uId",email);
