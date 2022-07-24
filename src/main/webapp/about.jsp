@@ -100,7 +100,7 @@
               <h2>Surya</h2>
               <p class="title">Associate Engineer Technology</p>
               <p>Working at Virtusa Consulting Services PVT LTD, from Bangalore.</p>
-              <p>test@gmail.com</p>
+              <p>f1ick18@gmail.com</p>
               <p><button class="button">Contact</button></p>
             </div>
           </div>
@@ -108,12 +108,12 @@
 
         <div class="column1">
           <div class="card1">
-            <img id="imgabout" src="images/about/bilal.png" alt="bilal">
+            <img id="imgabout" src="images/about/rahul.png" alt="bilal">
             <div class="container1">
-              <h2>Bilal</h2>
+              <h2>Rahul</h2>
               <p class="title">Associate Engineer Technology</p>
               <p>Working at Virtusa Consulting Services PVT LTD, from Mangalore</p>
-              <p>test@gmail.com</p>
+              <p>tallman@gmail.com</p>
               <p><button class="button">Contact</button></p>
             </div>
           </div>
@@ -134,12 +134,12 @@
 
         <div class="column1">
           <div class="card1">
-            <img class="imgabout" src="images/about/rahul.png" alt="rahul">
+            <img class="imgabout" src="images/about/rohith.png" alt="rahul">
             <div class="container1">
-              <h2>Rahul</h2>
+              <h2>Rohith</h2>
               <p class="title">Associate Engineer Technology</p>
               <p>Working at Virtusa Consulting Services PVT LTD, from Hyderabad.</p>
-              <p>test@gmail.com</p>
+              <p>rohith@gmail.com</p>
               <p><button class="button">Contact</button></p>
             </div>
           </div>
@@ -147,12 +147,12 @@
 
         <div class="column1">
           <div class="card1">
-            <img class="imgabout" src="images/about/rohith.png" alt="rohith">
+            <img class="imgabout" src="images/about/bilal.png" alt="rohith">
             <div class="container1">
-              <h2>Rohith</h2>
+              <h2>Bilal</h2>
               <p class="title">Associate Engineer Technology</p>
               <p>Working at Virtusa Consulting Services PVT LTD, from Bangalore </p>
-              <p>test@gmail.com</p>
+              <p>b3lol@gmail.com</p>
               <p><button class="button">Contact</button></p>
             </div>
           </div>

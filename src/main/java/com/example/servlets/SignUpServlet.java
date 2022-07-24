@@ -38,11 +38,18 @@ public class SignUpServlet extends HttpServlet {
         if(name.isEmpty() || email.isEmpty() || phoneNumber.isEmpty() || password.isEmpty() || confirmPassword.isEmpty()) {
             message = "Don't leave any field empty";
             sendError(message, req, res);
+            return;
+        }
+        if(!email.contains("@")){
+            message = "Invalid Email. Try Again.";
+            sendError(message,req,res);
+            return;
         }
 
         if(!password.equals(confirmPassword)){
             message = "Passwords do not match. Retry";
             sendError(message,req,res);
+            return;
         }
 
         // Store the data in the db
@@ -53,6 +60,7 @@ public class SignUpServlet extends HttpServlet {
 
         // Try adding cache control
         res.sendRedirect("index.jsp");
+        return;
     }
 
     private void sendError(String message,HttpServletRequest req,HttpServletResponse res) throws ServletException, IOException {

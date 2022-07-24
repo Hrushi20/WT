@@ -29,11 +29,13 @@ public class LoginServlet extends HttpServlet {
 
         // Check database for user
             boolean isValid = userDAO.validateUser(email, password);
+            System.out.println(isValid);
 
             if(isValid){
                 // Creating a session for the user
                 req.getSession().setAttribute("uId",email);
                 res.sendRedirect("index.jsp");
+                return;
             }
 
             // show an error message in the UI.
