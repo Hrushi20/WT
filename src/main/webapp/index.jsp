@@ -59,7 +59,7 @@
                             <ul id="icon1">
                                 <li class="icons">
                                     <span>
-                                        <a id="shop1" href="#"><img class="cart" src="./images/logo/shoppingBag.svg" alt="" />
+                                        <a id="shop1" href="cart.jsp"><img class="cart" src="./images/logo/shoppingBag.svg" alt="" />
                                         </a>
                                     </span>
                                     <span><a id="src1" href="#"><img class="search" src="./images/logo/search.svg" alt="" /></a></span>

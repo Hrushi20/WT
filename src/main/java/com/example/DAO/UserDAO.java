@@ -10,9 +10,9 @@ import java.sql.Statement;
 public class UserDAO {
 
     private Statement initConnection() throws ClassNotFoundException, SQLException {
-        String url = "jdbc:mysql://localhost:3306/WT";
+        String url = "jdbc:mysql://localhost:3306/";
         String username = "root";
-        String password = "Hrushi20";
+        String password = "123456";
         Class.forName("com.mysql.cj.jdbc.Driver");
 
         Connection con = DriverManager.getConnection(url,username,password);

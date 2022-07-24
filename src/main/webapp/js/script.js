@@ -4,12 +4,12 @@ function Product(id,name,price)
 	this.name=name;
 	this.price=price;
 }
-var p1 = new Product(1,"Google Pixel",45000)
-var p2 = new Product(2,"Iphone",60000)
-var p3 = new Product(3,"MacBook Pro",130000)
-var p4 = new Product(4,"Sony Headphones",12000)
-var p5 = new Product(5,"Play Station 4",60000)
-var p6 = new Product(6,"Microsoft Surface",55000)
+var p1 = new Product(1,"Rev Jacket",500)
+var p2 = new Product(2,"Air Shorts",999)
+var p3 = new Product(3,"Tech Jacket",999)
+var p4 = new Product(4,"Rev Jacket",1999)
+var p5 = new Product(5,"Safety Ht",999)
+var p6 = new Product(6,"V Shirt",999)
 
 var products = [p1,p2,p3,p4,p5,p6];
 var purchase = [];

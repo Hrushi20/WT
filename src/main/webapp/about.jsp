@@ -118,6 +118,19 @@
             </div>
           </div>
         </div>
+        
+        <div class="column1">
+          <div class="card1">
+            <img id="imgabout" src="https://i1.wp.com/tl.vhv.rs/dpng/s/446-4468626_chadathan-discord-emoji-yes-chad-meme-template-hd.png" alt= "hrushi">
+            <div class="container1">
+              <h2>Hrushikesh</h2>
+              <p class="title">Assistant Engineer Technology</p>
+              <p>Working at Virtusa Consulting Services PVT LTD, from Pakistan</p>
+              <p>chad@gmail.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
 
         <div class="column1">
           <div class="card1">
@@ -147,31 +160,6 @@
       </div>
 
     </section>
-
-  <!-- Newsletter
-        <section class="section newsletter" id="newsletter">
-            <div class="newsletter__container container">
-            <div class="title">
-                <h1 class="primary__title">Newsletter</h1>
-            </div>
-
-            <div class="newsletter__center">
-                <div class="newsletter__box">
-                <h2>Newsletter</h2>
-                <p>
-                    Subscribe to our Vsports newsletter and get 20% off your first purchase
-                </p>
-                </div>
-
-                <div class="newsletter__box">
-                <form action="#">
-                    <input type="email" placeholder="Your email" />
-                    <button>SUBSCRIBE</button>
-                </form>
-                </div>
-            </div>
-            </div>
-        </section> -->
 
   <!--...................... Footer starts here ...................................-->
   <footer class="footer">

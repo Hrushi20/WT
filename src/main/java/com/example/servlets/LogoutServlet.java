@@ -7,7 +7,12 @@ import java.io.IOException;
 
 public class LogoutServlet extends HttpServlet {
 
-    @Override
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	@Override
     public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
         req.getSession().removeAttribute("uId");
 

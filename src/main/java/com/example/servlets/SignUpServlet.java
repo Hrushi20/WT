@@ -7,12 +7,16 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.Date;
+//import java.io.PrintWriter;
+//import java.util.Date;
 
 public class SignUpServlet extends HttpServlet {
 
-    UserDAO userDAO;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	UserDAO userDAO;
     @Override
     public void init() throws ServletException {
         super.init();
@@ -28,7 +32,7 @@ public class SignUpServlet extends HttpServlet {
 
         System.out.println(name + " " + email + " " + password + " " + phoneNumber + " " + confirmPassword);
 
-        PrintWriter out = res.getWriter();
+//        PrintWriter out = res.getWriter();
 
         String message = "";
         if(name.isEmpty() || email.isEmpty() || phoneNumber.isEmpty() || password.isEmpty() || confirmPassword.isEmpty()) {

@@ -7,11 +7,15 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.sql.*;
+//import java.sql.*;
 
 public class LoginServlet extends HttpServlet {
 
-    UserDAO userDAO;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	UserDAO userDAO;
     @Override
     public void init() throws ServletException {
         super.init();
